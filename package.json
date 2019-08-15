@@ -1,0 +1,24 @@
+{
+  "name": "custom-server-koa",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --harmony --experimental-modules server/index.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node --harmony --experimental-modules server/index.js"
+  },
+  "dependencies": {
+    "immutable": "^4.0.0-rc.12",
+    "koa": "^2.0.1",
+    "koa-router": "^7.1.0",
+    "next": "latest",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-helmet": "^5.2.1",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "redux-actions": "^2.6.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  }
+}
